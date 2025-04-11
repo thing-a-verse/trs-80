@@ -1,0 +1,6 @@
+# This is just an example - you'll need to convert this to actual binary
+bytes([
+    0x21, 0x00, 0x52,  # LD HL, 5200h
+    0x11, 0x48, 0x45,  # Hello in ASCII
+    0x4C, 0x4C, 0x4F
+])
